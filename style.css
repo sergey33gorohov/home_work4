@@ -1,0 +1,222 @@
+body{
+	background-image: url(bodybackground.gif);
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+	height: 650px;
+}
+.clearfix{
+	clear: both;
+		}
+.main{
+	background: #ffffff;
+	margin: 0 130px 0 150px;
+	height: 610px;
+	position: relative;
+}
+.logo{
+	margin: 12px 0 0 30px;
+	position: absolute;
+	top: 12px;
+}
+.logo_trip{
+	position: absolute;
+	top: 115px;
+	left: 105px;
+}
+.right1{
+	position: absolute;
+	top: 8px;
+	left: 605px;
+	font-size: 10px;
+	font-family: "Tahoma";
+	color: #75b6c8;
+}
+.right2{
+	position: absolute;
+	top: 18px;
+	left: 605px;
+	font-size: 10px;
+	font-family: "Tahoma";
+	color: #75b6c8;
+}
+.right3{
+	position: absolute;
+	top: 28px;
+	left: 605px;
+	font-size: 10px;
+	font-family: "Tahoma";
+	color: #75b6c8;
+}
+.right4{
+	position: absolute;
+	top: 38px;
+	left: 605px;
+	font-size: 10px;
+	font-family: "Tahoma";
+	color: #75b6c8;
+}
+
+.flag_india{
+	position: absolute;
+	top: 115px;
+	right: 250px;
+}
+.flag_nepal{
+	position: absolute;
+	top: 115px;
+	right: 210px;
+}
+.flag_tibet{
+	position: absolute;
+	top: 115px;
+	right: 170px;
+}
+.flag_butan{
+	position: absolute;
+	top: 115px;
+	right: 130px;
+}
+.flag_shrilanka{
+	position: absolute;
+	top: 115px;
+	right: 90px;
+}
+.flag_maldivi{
+	position: absolute;
+	top: 115px;
+	right: 50px;
+}
+.India{
+	font-size: 10px;
+	font-family: "Tahoma";
+	position: absolute;
+	top: 135px;
+	right: 250px;
+	color: rgb(18, 138, 167);
+  text-decoration: underline;
+}
+.Nepal{
+font-size: 10px;
+	font-family: "Tahoma";
+	position: absolute;
+	top: 135px;
+	right: 210px;
+	color: rgb(18, 138, 167);
+  text-decoration: underline;
+}
+.Tibet{
+	font-size: 10px;
+	font-family: "Tahoma";
+	position: absolute;
+	top: 135px;
+	right: 170px;
+	color: rgb(18, 138, 167);
+  text-decoration: underline;
+}
+.Butan{
+	font-size: 10px;
+	font-family: "Tahoma";
+	position: absolute;
+	top: 135px;
+	right: 132px;
+	color: rgb(18, 138, 167);
+  text-decoration: underline;	
+}
+.Shrilanka{
+	font-size: 10px;
+	font-family: "Tahoma";
+	position: absolute;
+	top: 135px;
+	right: 79px;
+	color: rgb(18, 138, 167);
+  text-decoration: underline;
+}
+.Maldivi{
+	font-size: 10px;
+	font-family: "Tahoma";
+	position: absolute;
+	top: 135px;
+	right: 28px;
+	color: rgb(18, 138, 167);
+  text-decoration: underline;
+}
+.main_picture{
+	position: absolute;
+	top: 167px;
+	border-bottom: 1px solid #128aa7;
+	border-top: 1px solid #128aa7;
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	position: absolute;
+	top: 345px;
+	width: 100%;
+	  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+	  z-index: 1;
+}
+.menu ul{
+	background-image: url(background_menu.gif);
+	background-repeat: repeat-x;
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+}
+.menu ul li{
+display: inline-block;
+margin: 0 15px 0 15px;
+}
+.menu ul li a{
+vertical-align: middle;
+text-align: center;
+text-decoration: none;
+color: #ffffff;
+font-size: 14px;
+  font-family: "Tahoma";
+}
+.left_side{
+	position: absolute;
+	top: 374px;
+	left: 0px;
+	background-color: #edeef0;
+	float: left;
+	width: 22%;
+	height: 226px;
+	padding: 5px;
+}
+.right_side{
+	position: absolute;
+	top: 374px;
+	right: 0px;
+	background-color: #edeef0;
+	float: left;
+	width: 22%;
+	height: 226px;
+	padding: 5px;
+}
+.trip12345{
+	position: absolute;
+	top: 374px;
+	left: 100px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #303030;
+	  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.trip12345 li{
+	font-size: 14px;
+  font-family: "Tahoma";
+  color: white;
+  padding: 3px 10px 3px 5px;
+}
+.bottom{
+	position: absolute;
+	top: 625px;
+	left: 260px;
+	color: white;
+	font-size: 14px;
+  font-family: "Tahoma";
+
+} 
